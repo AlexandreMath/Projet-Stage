@@ -1,0 +1,136 @@
+body{
+	background-color: #FFFFFF;
+}
+#main{
+	background-color: #FAFAFA;
+}
+/*CSS du header*/
+header{
+	background-color: #D8D8D8;
+	width: 100%;
+	height: 20%;
+}
+
+nav{
+	margin-left: 10%;
+	height: 20%;
+}
+
+#logo{
+	margin: 5px;
+	height: 20%;
+}
+
+/*Bouton Espace Membre*/
+#clickme{
+	margin-top: 40px;
+}
+
+#userConnex{
+	border: 2px solid #FA5858;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+nav{
+	margin-top: 40px;
+}
+
+nav li{
+	display: inline;
+	padding: 10px;
+}
+
+/*balise html*/
+li{
+	list-style: none;
+}
+
+legend{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	background-color: #D8F6CE;
+	border-radius: 5px;
+}
+table, thead, th{
+	padding-right: 10px;
+	margin: auto;
+}
+
+/*CSS de la page inscription*/
+#formInscrip{
+	margin-left: 50px;
+}
+
+/*CSS de la map google*/
+#mapGoogle {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+/*CSS de la page principale*/
+#contents{
+	
+	height: 100%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+}
+
+/*CSS sidebare*/
+#side_bare{
+	
+	height: 100%;
+	width: 300px;
+	margin-right: 25px;
+	border: 1px solid;
+}
+
+/*CSS footer*/
+footer{
+	background-color: #D8D8D8;
+}
+
+#menuFooter{
+	margin-top: 40px;
+}
+
+#menuFooter li{
+	padding: 10px; 
+	display: inline;
+}
+/*cropit jquery*/
+      .cropit-image-preview {
+        background-color: #f8f8f8;
+        background-size: cover;
+        border: 5px solid #ccc;
+        border-radius: 3px;
+        margin-top: 7px;
+        width: 250px;
+        height: 250px;
+        cursor: move;
+      }
+
+      .cropit-image-background {
+        opacity: .2;
+        cursor: auto;
+      }
+
+      .image-size-label {
+        margin-top: 10px;
+      }
+
+      input {
+        /* Use relative position to prevent from being covered by image background */
+        position: relative;
+        z-index: 10;
+        display: block;
+      }
+
+      .export {
+        margin-top: 10px;
+      }
+      
